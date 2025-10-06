@@ -1,0 +1,53 @@
+.h2Style{
+  color: blue;
+}
+.footer-color{
+  background-color: lightgray;
+  text-align: center;
+
+}
+nav {
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+.list{
+  color: red;
+  display: flex;  
+
+}
+.nav-bar{
+    margin: 0 12px;
+  color: #242424;
+  font-weight: 700;
+}
+.alpha.beta{
+  color: green;
+}
+div ~ p {
+  background-color: gray;
+}
+li > .red{
+  color: red;
+}
+ul > li {
+  border-top: 5px solid red;
+}
+body {
+  font-family: sans-serif;
+}
+
+h1 + p {
+  font-weight: bold;
+  background-color: #333333;
+  color: white;
+  padding: 0.5em;
+}
+h1:open{
+  
+}
